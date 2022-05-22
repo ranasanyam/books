@@ -1,0 +1,63 @@
+.main-div {
+  display: flex;
+  text-align: center;
+  padding: 1rem;
+  margin: 20px auto;
+  max-height: 25rem;
+}
+
+.secondary-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+.card-img-top {
+  max-height: 18rem;
+}
+p {
+  font-weight: bold;
+  font-size: 16px;
+}
+.details {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+h1 {
+  text-align: start;
+  font-size: 40px;
+  margin: 2rem 0;
+  text-transform: uppercase;
+}
+.btn {
+  max-width: 15rem;
+  margin: 0.5rem 0;
+}
+@media screen and (max-width: 576px) {
+  .main-div {
+    max-height: 40rem;
+  }
+  .secondary-div {
+    display: flex;
+    flex-direction: column;
+  }
+  h1 {
+    text-align: center;
+    font-size: 25px;
+  }
+  .details {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+  }
+  p {
+    font-weight: normal;
+    font-size: 12px;
+  }
+  .btn {
+    max-width: 20rem;
+  }
+}
